@@ -104,15 +104,20 @@ Baby.prototype.play = function() {
 };
 
 
-/* 
+/*
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. "this" will encompass everything when deployed in the global scope.
+
+  2. when a function is called, "this" refers to the object left of the ".".
+
+  3. when used in conjunction with a constructor, "this" refers to the constructed object.
+
+  4. when using ".call" or ".apply", "this" is explicitly defined.
+
 */
+
 
 
 ///////// END OF CHALLENGE /////////
